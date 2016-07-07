@@ -3,3 +3,16 @@ A hidden folder .git is generated. It is used for version control.
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 staging area is an intermedia that connects working directory and the repository. With staging area, you can indicate which files are relected to one commit.
+
+How can you use the staging area to make sure you have one commit per logical change?
+use  git diff to compare work directory and staging area
+ues git diff --staged to compare staging area and Repository
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+When I want to do some experiment, branches would be helpful.
+
+How do the diagrams help you visualize the branch structure?
+I don't know this problem.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+The result of merging two branches is to reserve the common parts of the two branches while adding new parts of each branch without conflict.
