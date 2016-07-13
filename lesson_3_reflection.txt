@@ -3,3 +3,11 @@ When I work with other people togehter on a project. Or when I work in the compa
 
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 Because we want to have everything under control. Sometimes we want push instead of pull.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+clone: from remote to local, local to local
+branch: happens in one repository
+fork: clone other people's repo
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+If I'm doing a project with some other people, it's benefit for me to catch up with others.
